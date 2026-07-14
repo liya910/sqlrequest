@@ -1,5 +1,5 @@
 1. Количество неактивных клиентов с балансом > 100000
-SELECT COUNT(*) AS inactive_rich_clients
+SELECT COUNT(*) AS inactive_rich_client
 FROM Clients
 WHERE IsActive = 0 AND Balance > 100000;
 
